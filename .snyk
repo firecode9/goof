@@ -6,3 +6,16 @@ patch:
   'npm:ms:20151024':
     - humanize-ms > ms:
         patched: '2020-02-06T11:55:51.602Z'
+  'npm:debug:20170905':
+    - tap > tap-mocha-reporter > debug:
+        patched: '2020-02-06T11:59:32.813Z'
+    - snyk > proxy-agent > pac-proxy-agent > get-uri > debug:
+        patched: '2020-02-06T11:59:32.813Z'
+  SNYK-JS-LODASH-450202:
+    - tap > nyc > istanbul-reports > handlebars > async > lodash:
+        patched: '2020-02-06T11:59:32.813Z'
+  'npm:ms:20170412':
+    - tap > tap-mocha-reporter > debug > ms:
+        patched: '2020-02-06T11:59:32.813Z'
+    - snyk > proxy-agent > pac-proxy-agent > get-uri > debug > ms:
+        patched: '2020-02-06T11:59:32.813Z'
